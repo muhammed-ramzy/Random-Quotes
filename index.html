@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+
+    <!-- FontAwesome icons css file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- My Animaition css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- My Media Query css file -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- My Main CSS file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="text-center text-white vh-100 overflow-hidden">
+
+    <h1 class="display-1 fw-bold text-center mt-5 B-main-font-family">Quote of the Day</h1>
+    <p class="text-center R-secondary-font-family fs-5">Press the button below to recieve a random quote!
+    </p>
+
+    <button class="btn btn-success d-block m-auto my-5 text-uppercase B-main-font-family" onclick="changeQuote()">New
+        Quote</button>
+
+    <div class="container ">
+        <div class="row justify-content-center align-items-center">
+            <i class="fa-solid fa-quote-left col-2 fs-1"></i>
+            <div id="demo" class="R-secondary-font-family col-8">
+            </div>
+            <i class="fa-solid fa-quote-right col-2 fs-1"></i>
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
